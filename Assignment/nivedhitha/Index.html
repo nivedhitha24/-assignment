@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>RESUME</title>
+    <!--Google fonts link for Roboto-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    </style>
+    <!--Font Awesome CDN link (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--The Top bar-->
+    <top class="nav-container">
+        <top class="nav-bar">
+            <p>Nivedhitha </p>
+            <div class="icons">
+                <i class="fa fa-facebook-official"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-youtube"></i>
+                <i class="fa fa-github"></i>
+            </div>
+        </top>
+    </top>
+
+    <!--CV Container-->
+    <section class="section-container">
+        <!--Overview-->
+        <div class="overview">
+            <img class="pic" src="pic.jpg" alt="Unable to load Pic">
+            <div class="details-wrapper">
+               <div class="overview-details">
+                    <p class="Header-Name">NIVEDHITHA M </p>
+                    <p class="Description"> Software Developer & Web designer</p>
+                    <div class="buttons-group">
+                        <button onclick="printCV()" class="button1" type="submit">Download CV</button>
+                        <button class="button2" type="submit">Hire Me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--About Me-->
+        <div class="aboutMe">
+            <div class="aboutme-left">
+                <h1>About Me</h1>
+                <p>Hi! I'm Nivedhitha, I am very good at communication and coding.  </p>
+            </div>
+            <div class="aboutme-right">
+                <ul>
+                    <li>Age     - 20</li>
+                    <li>Email   - nivedhitha106@gmail.com</li>
+                    <li>Phone   - 93614 58950</li>
+                    <li>Address - Chennai</li>
+                </ul>
+            </div>
+        </div>
+        <!--Skills-->
+        <h1 class="skills-header">Professional Skills</h1>
+        <div class="skills">
+            <div class="skills-left">
+                <h5>HTML</h5>
+                <progress value = "78" max = "100"></progress>
+                <h5>CSS</h5>
+                <progress value = "65" max = "100"></progress>
+                
+            </div>
+            <div class="skills-right">
+                <h5>Python</h5>
+                <progress value = "80" max = "100"></progress>
+                <h5>C</h5>
+                <progress value = "70" max = "100"></progress>
+                <h5>Java</h5>
+                <progress value = "60" max = "100"></progress>
+            </div>
+        </div>
+
+<h1 class="skills-header">Projects</h1>
+<div class="project-content">
+<br>
+<h5>1. Movie Recommendation System</h5>
+<br>
+<h5>2. Smart Attendance Application (SIH)<h5>
+</div>
+<div class="foot">
+</div>
+
+
+    </section>
+<script>
+function printCV() {
+  window.print();
+}</script>
+   	
+</body>
+</html>
